@@ -1,0 +1,14 @@
+.banner-div{
+    height:80vh;
+    background: radial-gradient(circle, rgba(113,137,185,1) 0%, rgba(208,187,233,1) 100%);
+    transition-delay:1s;
+}
+.text-padd{
+    padding-top:180px;
+}
+
+.banner-div:hover{
+    height:80vh;
+    background: radial-gradient(circle, rgba(113,188,133,1) 0%, rgba(208,187,233,1) 100%);
+
+}

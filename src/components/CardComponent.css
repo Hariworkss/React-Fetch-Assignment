@@ -1,0 +1,13 @@
+.cardstyle:hover{
+    transition:.5s;
+    box-shadow:2px 2px 10px 50px; 
+    background: radial-gradient(circle, rgba(100,188,133,1) 0%, rgba(200,187,220,1) 100%);
+
+}
+
+/*.cardstyle{
+    width: 90%;
+    height:100%;
+    padding: 12px;
+} */
+
