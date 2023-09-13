@@ -3,15 +3,12 @@ import { bannerArray } from '../data/bannerData'
 import './BannerComponent.css'
 
 function BannerComponent() {
-    // State to track the current banner index
     const [currentBannerIndex, setCurrentBannerIndex] = useState(0);
   
-    // Function to handle next banner
     const handleNextBanner = () => {
       setCurrentBannerIndex((prevIndex) => (prevIndex + 1) % bannerArray.length);
     };
   
-    // Function to handle previous banner
     const handlePrevBanner = () => {
       setCurrentBannerIndex((prevIndex) =>
         prevIndex === 0 ? bannerArray.length - 1 : prevIndex - 1
